@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-6nu395x^qhjjl^ja@pk$@#!k_eeu30$seti0i4nph3qho*zx^b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["djangopolls-1-f0203198.deta.app", "localhost"]
+ALLOWED_HOSTS = ["djangopolls-1-f0203198.deta.app", "localhost", "127.0.0.1"]
 
 
 # Application definition
