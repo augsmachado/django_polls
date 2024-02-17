@@ -5,7 +5,7 @@ micros:
       src: ./
       engine: python3.9
       primary: true
-      run: uvicorn polls.asgi:app
-      dev: uvicorn polls.asgi:app --reload
+      run: uvicorn server.asgi:app
+      dev: uvicorn server.asgi:app --reload
       public_routes:
           - "/*"
